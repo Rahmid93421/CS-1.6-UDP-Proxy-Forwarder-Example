@@ -1,0 +1,15 @@
+----------------------------------------------
+CRASH: luni 5 iunie 2023, 22:23:48 +0300
+Start Line: ./hlds_linux -game cstrike -port 27015 +map de_dust2
+----------------------------------------------
+CRASH: marți 6 iunie 2023, 19:30:57 +0300
+Start Line: ./hlds_linux -game cstrike +map de_dust2
+----------------------------------------------
+CRASH: marți 6 iunie 2023, 22:53:16 +0300
+Start Line: ./hlds_linux -game cstrike -port 27030 +map de_dust2
+----------------------------------------------
+CRASH: Thu Jun  8 11:57:36 EDT 2023
+Start Line: ./hlds_linux -game cstrike +map de_dust2
+----------------------------------------------
+CRASH: Thu Jun  8 13:41:12 EDT 2023
+Start Line: ./hlds_linux -game cstrike +map de_dust2 -sys_ticrate 10 +sys_tickrate 10

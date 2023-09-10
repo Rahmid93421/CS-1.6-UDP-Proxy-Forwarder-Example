@@ -1,0 +1,15 @@
+#!/bin/bash
+green=$(tput setaf 2)
+nocolor=$(tput sgr0)
+BIT_COUNT=$(getconf LONG_BIT)
+command -v screen >/dev/null 2>&1 ||
+{
+printf "\n========================================================================================";
+printf "\n ${green} INFO!!! ${nocolor} Instaleaza '${green}screen${nocolor}' sau alege '${green}nohup${nocolor}' cand configurezi redirectele.";
+}
+if [ $BIT_COUNT -eq 64 ]
+then
+./redirect64
+else
+./redirect32
+fi

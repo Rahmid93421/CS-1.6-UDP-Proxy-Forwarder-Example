@@ -1,0 +1,8 @@
+de_dust1
+de_dust2
+de_dust3
+de_inferno
+de_nuke
+de_tuscan32
+de_dust_3x3
+de_inferno
